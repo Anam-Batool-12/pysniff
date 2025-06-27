@@ -1,6 +1,4 @@
 import socket
-
-
 HOST = input("Enter the IP address to sniff: ")
 sock = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_IP)
 sock.bind((HOST, 0))
